@@ -9,15 +9,15 @@ const Header = () => {
 
             <div className='nav-bar'>
                 <ul>
-                    <li>Home</li>
-                    <li>Explore</li>
-                    <li>Create</li>
+                    <li>About</li>
+                    <li>Business</li>
+                    <li>Blog</li>
                 </ul>
             </div>
 
-            <div className='search' type = 'text'>
-                <button className='seach-btn'>
-                    Search
+            <div className='login' type = 'text'>
+                <button className='login-btn'>
+                    Login
                 </button>
             </div>
             </div>
