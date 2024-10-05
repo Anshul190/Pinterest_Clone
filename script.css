@@ -38,3 +38,26 @@
     padding: 0px;
     font-size: 25px;
 }
+
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.insta-logo {
+    width: 50px;
+    padding: 10px;
+}
+
+.linkedin-logo {
+    width: 50px;
+    padding: 10px;
+}
+
+.twitter-logo {
+    width: 50px;
+    padding: 10px;
+}

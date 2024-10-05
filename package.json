@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html",
+    "start": "parcel index.html --port 1234",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -25,7 +25,8 @@
   "dependencies": {
     "parcel": "^2.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "process": "^0.11.10"
