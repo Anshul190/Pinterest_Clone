@@ -18,6 +18,10 @@ const Body = () => {
         console.log(data);
         console.log(json);
     }
+
+    if(ListofImages.length === 0){
+        return <Shimmer />;
+    }
     
 
     return (
