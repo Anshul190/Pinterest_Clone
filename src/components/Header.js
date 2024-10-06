@@ -22,7 +22,7 @@ const Header = () => {
             <div className='login'>
                 <button className='login-btn' onClick = {()=> {
                     loginbutton === 'Login'
-                    ? setloginbutton('logout')
+                    ? setloginbutton('Logout')
                     : setloginbutton('Login') 
                 }}>
                     {loginbutton}
